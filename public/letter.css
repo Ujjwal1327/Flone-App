@@ -1,0 +1,37 @@
+.letter {
+    /* border: 2px solid red; */
+    height: 500px;
+    text-align: center;
+}
+
+.letter p:nth-child(1) {
+    font-size: 60px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.letter input {
+    display: block;
+    width: 40%;
+    outline: none;
+    border: none;
+    margin: 10px auto 20px auto;
+    border-bottom: 2px solid grey;
+    box-shadow: 0px 1px 2px grey;
+    outline: none;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 2px;
+}
+
+.letter a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 45px;
+    display: block;
+    width: 15%;
+    margin: 10px auto 0px auto;
+}

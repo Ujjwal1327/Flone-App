@@ -1,0 +1,89 @@
+#main-card-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.each-card {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    /* border: 2px solid red; */
+    width: 300px;
+    position: relative;
+}
+
+.each-card .img-section img {
+    height: 350px;
+    width: 300px;
+    border-radius: 6px;
+}
+
+.each-card .img-section h4 {
+    font-size: 15px;
+    z-index: 2;
+    position: absolute;
+    top: 7%;
+    right: 10px;
+    background-color: rgb(251, 154, 255);
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.each-card .img-section h5 {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    top: 18%;
+    right: 10px;
+    background-color: rgb(225, 0, 255);
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.each-card .text-area {
+    /* border: 3px solid black; */
+    position: absolute;
+    visibility: hidden;
+    top: 3px;
+    width: 90%;
+    margin: 10px 15px;
+    height: 90%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+.each-card .text-area p {
+    font-size: 30px;
+    margin: 70px 0px 0 0;
+    /* border: 2px solid red; */
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.each-card:hover>.text-area {
+    visibility: visible;
+}
+
+.each-card .text-area ul {
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.each-card .text-area ul li {
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    width: 40px;
+    list-style: none;
+    background-color: #A749FF;
+    border-radius: 50%;
+}
